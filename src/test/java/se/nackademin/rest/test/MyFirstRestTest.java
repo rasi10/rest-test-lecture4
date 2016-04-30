@@ -1,10 +1,12 @@
+package se.nackademin.rest.test;
+
 import org.junit.Test;
 import static com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import java.util.UUID;
 import static org.junit.Assert.assertEquals;
-import se.nackademin.BookOperations;
+import se.nackademin.rest.test.BookOperations;
 import static com.jayway.restassured.path.json.JsonPath.*;
 
 public class MyFirstRestTest {    

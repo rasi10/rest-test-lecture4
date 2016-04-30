@@ -1,5 +1,5 @@
 
-package se.nackademin;
+package se.nackademin.rest.test;
 
 import static com.jayway.restassured.RestAssured.delete;
 import static com.jayway.restassured.RestAssured.given;
